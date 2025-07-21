@@ -1,0 +1,183 @@
+#{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    z-index: 1;    
+    background-position: center;
+    background-size:cover ;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: aqua;
+    margin-top: -3%;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+ul li a:hover{
+    color: white;
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: blue;
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: blue;
+}
+
+.info span{
+    color: blueviolet;
+}
+
+.info a{
+    text-decoration: none;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+padding: 10px;
+border-radius: 10px;
+display: inline-block;
+transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(7, 238, 37);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;bottom: 0;
+}
+
+.image img {
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .car{
+    left: 55%;
+}
+
+ul li{
+    padding-right: 20px;
+}
+
+#facebook{
+     height: 55px;
+     width: 55px;
+     padding: 10px 16px;
+}
+
+#link{
+    padding: 10px 16px;
+}
+
+#whatsapp{
+    padding: 10px 16px;
+}
+
+#tiktok{
+    padding: 10px 16px;
+}
+
+#logout{
+    text-decoration: none;
+    font-size: large;
+    color: aqua;
+    transition: .4s ease;
+ border: 1px solid blue;
+ border-radius: 50%;   
+}
+
+#logout:hover{
+    color: yellow;
+    background-color: green;
+}
+
+h1{
+    font-family:'Times New Roman';
+}
+
+h2{
+    color: blueviolet;
+}
+
+#facebook{
+    transition: .4 ease;
+}
+
+#facebook:hover{
+    border: 3px double blueviolet;
+
+}
+
+summary{
+    border: 1px solid aqua;
+    background-color: blueviolet;
+    border-width: 5px;
+    border-radius: 20px;
+    width: 140px;
+    cursor: pointer;
+}
+
+[title=facebook]:hover{
+    background-color: blueviolet;
+    color: aqua;
+}
+
+[title=whatsapp]:hover{
+    background-color: blueviolet;
+    color: aqua;
+}

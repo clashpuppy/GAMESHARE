@@ -1,0 +1,62 @@
+header{
+
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 50%;
+    transition: .4s ease;
+}
+
+header:hover{
+    color: blanchedalmond;
+    background-color: black;
+    border: 5px solid yellow;
+}
+
+.img{
+    align-items: center;
+    padding: 10px 16px;
+    margin-left: 140px;
+}
+
+#home{
+     
+     text-decoration: none;
+     color: brown;
+     
+     font-size: larger;
+     
+      font-weight: bolder;
+     text-align: center;
+     transition: .4s ease;
+
+}
+
+#home:hover{
+      color: black;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: blueviolet;
+    text-align: left 50%;
+    text-align: right 50%;
+    font-weight: 800;
+    font-size: 90px;
+    font-family: 'Times New Roman';
+    border: 5px double black;
+    background-color: aqua;
+    margin-left: 530px;
+    transition: .5s;
+
+}
+
+a:hover{
+    color: beige;
+    background-color: black;
+    border: 9px solid silver;
+}
+
